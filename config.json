@@ -1,0 +1,5 @@
+{
+    "https": true,
+    "httpsPort": 443,
+    "port": 80
+}
