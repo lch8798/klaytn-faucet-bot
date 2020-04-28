@@ -93,7 +93,7 @@ export default class App extends Component {
             window.localStorage.setItem('successAddress', toAddress);
         } catch (e) {
             console.log(e);
-            alert(JSON.stringify(e));
+            if (e == '너무 많은 요청으로 IP 벤 당했습니다.') alert(e);
             throw e;
         }
     };
